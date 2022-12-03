@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "fuentes";
+@import "header";
+
+@media only screen and (min-width: 992px) {
+  .quienesomos {
+    text-align: left;
+  }
+
+  .textoquienesomos {
+    margin-top: 0px;
+  }
+}
+
+.quienesomos {
+  font-family: "Satisfy-Regular";
+  font-size: 20px;
+  text-align: center;
+
+  .imagenquienesomos {
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+  }
+
+  .textoquienesomos {
+    margin-top: 20px;
+  }
+}
+
+@import "footer";
