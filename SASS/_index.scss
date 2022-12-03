@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "fuentes";
+@import "header";
+
+body {
+  section {
+    .presentacionprincipal {
+      font-family: "Satisfy-Regular";
+      font-size: 20px;
+      text-align: center;
+    }
+    div {
+      @media only screen and (min-width: 600px) {
+        .conteinerimagenprincipal {
+          margin-left: 25%;
+          margin-right: 25%;
+        }
+      }
+      img {
+        .imagenprincipal {
+          width: 100%;
+          height: auto;
+          border-radius: 15%;
+        }
+      }
+    }
+  }
+}
+
+@import "footer";
