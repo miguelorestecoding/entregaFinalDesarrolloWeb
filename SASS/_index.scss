@@ -8,25 +8,23 @@
 @import "header";
 
 body {
-  section {
-    .presentacionprincipal {
-      font-family: "Satisfy-Regular";
-      font-size: 20px;
-      text-align: center;
-    }
-    div {
-      @media only screen and (min-width: 600px) {
-        .conteinerimagenprincipal {
-          margin-left: 25%;
-          margin-right: 25%;
-        }
+  .presentacionprincipal {
+    font-family: "Satisfy-Regular";
+    font-size: 20px;
+    text-align: center;
+
+    .conteinerimagenprincipal {
+      .imagenprincipal {
+        width: 100%;
+        height: auto;
+        border-radius: 15%;
       }
-      img {
-        .imagenprincipal {
-          width: 100%;
-          height: auto;
-          border-radius: 15%;
-        }
+    }
+
+    @media only screen and (min-width: 600px) {
+      .conteinerimagenprincipal {
+        margin-left: 25%;
+        margin-right: 25%;
       }
     }
   }

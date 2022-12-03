@@ -7,21 +7,18 @@ body {
       text-decoration: none;
       div {
         a {
-          img {
-            .logo {
-              width: 200px;
-              border-radius: 50%;
-              &:hover {
-                transform: rotate(360deg);
-                transition: 5s;
-              }
+          .logo {
+            width: 200px;
+            border-radius: 50%;
+            &:hover {
+              transform: rotate(360deg);
+              transition: 5s;
             }
           }
         }
-        h1 {
-          .tituloprincipal {
-            font-size: 50px;
-          }
+
+        .tituloprincipal {
+          font-size: 50px;
         }
       }
     }
