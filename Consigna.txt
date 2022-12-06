@@ -1,0 +1,13 @@
+Comentarios
+/* Comentario SASS, no pasa a CSS */
+
+Nesting
+Mixins
+Partials
+Variables
+(Operadores de Lenguaje SASS NO)
+
+Implementar Técnicas de SEO.
+
+GitIgnore para eviatar archivos irrelevantes. 
+No subir NodeModuls
